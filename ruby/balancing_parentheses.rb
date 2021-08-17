@@ -56,4 +56,12 @@ if __FILE__ == $PROGRAM_NAME
 end
 
 # Please add your pseudocode to this file
+  # if string length is less than 1, return length (aka 0)
+  # otherwise, split string into array
+  # find first instance of "("
+    # if it exists, search remainder of array (everything after the "(") to find first instance of ")"
+      # if both exist, remove them from array, turn array back into string, and rerun function
+    # if closing parenthesis does not exist, return length of array
+  # if there are no more opening parentheses, return length of array
+    
 # And a written explanation of your solution
